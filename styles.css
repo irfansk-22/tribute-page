@@ -140,7 +140,7 @@ footer > a:hover {
 
 @media (max-width: 800px) {
   h2 {
-    font-size: 1.35rem;
+    font-size: 1.55rem;
   }
 
   h3 {
@@ -161,7 +161,7 @@ footer > a:hover {
   }
 
   #article {
-    padding: 1.25rem;
+    padding: 1.2rem;
     max-width: 100%;
   }
 
