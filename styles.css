@@ -1,0 +1,186 @@
+:root {
+  --this-purple: rgb(178, 101, 226);
+  --this-white: rgb(244, 238, 246);
+  --h1-h2-color: rgb(228, 161, 62);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: var(--h1-h2-color);
+  font-size: 1.65rem;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  background-color: var(--this-white);
+  color: var(--this-purple);
+  margin: 2rem 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 5px burlywood;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+footer {
+  text-align: right;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  background-color: rgb(245, 200, 145);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  border: 1px solid orange;
+}
+
+#title {
+  color: var(--h1-h2-color);
+  padding-top: 1.5rem;
+  font-family: "Crete Round", serif;
+  font-size: 4.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.25;
+}
+
+#img-div {
+  max-width: 75%;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid rgba(228, 160, 71, 0.4);
+  background-color: var(--this-white);
+}
+
+.description {
+  color: var(--this-purple);
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#img-caption {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-style: normal;
+  opacity: 0.9;
+}
+
+#tribute-info {
+  margin: 3rem auto;
+  font-weight: bold;
+}
+
+#article {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.shayaries {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.further-reading {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.shayari {
+  margin: 0.5rem 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  width: 60%;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+footer > a {
+  color: rgb(154, 43, 223);
+  margin: 5px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer > a:hover {
+  text-decoration: underline;
+  transition: 1s ease-in;
+}
+
+.copyright {
+  font-size: 0.825rem;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+/* Media Queryies */
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+  }
+
+  #title {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.05rem;
+  }
+
+  #img-div {
+    padding: 1rem;
+    max-width: 95%;
+  }
+
+  #article {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .shayari {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: .9rem;
+  }
+
+  footer {
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+
+    .shayari {
+    font-size: 0.8rem;
+  }
+}
